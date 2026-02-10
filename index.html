@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <div class="side-panel">
+            <div class="picture">
+            <div class="logo-bar">
+                <img src="images/mylogo2.png" alt="logo-bar" class="logo">
+                <h1 class="mmrr">MMRR</h1>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="dummy-text left">
+            <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur,
+                 adipisicing elit. Necessitatibus, commodi!</p>
+            
+            <p>Sign up <em>now</em> to get started.</p>
+            <p class="remote-text">You <em>know</em> you want to.</p>
+
+            </div>
+            <form action="#">
+                <div class="form left">
+                <p class="form-title">Let's do this!</p>
+
+        <div class="input">
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" placeholder="First Name" minlength="3" required>
+        </div>
+        <div class="input">
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Last Name">
+        </div>
+         <div class="input">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="email" required>
+        </div>
+         <div class="input">
+            <label for="phone_number">Phone Number</label>
+            <input type="text" id="phone_number" name="phone_number" placeholder="Phone Number"
+                    pattern="[0-9]{10}" >
+        </div>
+        <div class="input">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password" minlength="8" required>
+        </div>
+        <div class="input">
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Password" minlength="8" required>
+        </div>
+        </div>
+        <div class="left button"><button type="submit">Create Account</button></div>
+    </form>
+    <div class="log-in left"><p>Already Have an Account?</p><a href="#">Log In</a></div>
+    </div>
+    </div>
+</body>
+</html>
